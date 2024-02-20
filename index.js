@@ -36,9 +36,9 @@ app.post("/payment/create", async(req,res)=>{
     }
 });
 
-app.listen(5100,(err)=>{
-if(err) throw err;
-console.log(`Amazone server Running on Port:http://localhost:${process.env.PORT}`);
-});
+// app.listen(5100,(err)=>{
+// if(err) throw err;
+// console.log(`Amazone server Running on Port:http://localhost:${process.env.PORT}`);
+// });
 
 exports.api = onRequest(app);
